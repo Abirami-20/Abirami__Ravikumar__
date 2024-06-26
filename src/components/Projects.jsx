@@ -1,5 +1,5 @@
-import websiteImg1 from '../assets/expensetracker.jpg';
-import websiteImg2 from '../assets/weatherapp.png';
+import websiteImg1 from '../assets/expensetracker1.png';
+import websiteImg2 from '../assets/MEAL MASTERY IMG.png';
 import websiteImg3 from '../assets/to-do-list.png';
 
 export default function Projects() {
@@ -13,8 +13,8 @@ export default function Projects() {
             },
             {
                 image: websiteImg2,
-                description: 'Weather App ',
-                link: 'https://github.com/Abirami-20/weather__app'
+                description: 'Meal Mastery ',
+                link: 'https://github.com/Abirami-20/Backend_MealMastery'
             },
             {
                 image: websiteImg3,
@@ -32,10 +32,10 @@ export default function Projects() {
             </div>
         </div>
         <div className="w-full">
-            <div className='flex flex-col md:flex-row px-10 gap-5 font-pop'>
+            <div className='flex flex-col justify-evenly md:flex-row px-10 gap-5 font-pop'>
                 {config.projects.map((project) => (
                     <div className='relative'>
-                        <img className='h-[200px] w-[500px]' src={project.image} />
+                        <img className='h-[200px] w-[300px]' src={project.image} />
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5 text-gold'>{project.description}</p>
                             <div className='flex justify-center'>

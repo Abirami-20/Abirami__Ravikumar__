@@ -5,7 +5,7 @@ export default function Hero() {
     const config  = {
         subtitle: 'Im a Full Stack Developer',
         social: {
-            linkedin: 'https://in.linkedin.com/company/jvl-code',
+            linkedin: 'https://www.linkedin.com/in/abirami-ravikumar-a25120220/',
             Instagram:'https://www.instagram.com/abiramiravikumar6/',
             Github:'https://github.com/Abirami-20',
             mail:'divyaabi047@gmail.com'

@@ -8,14 +8,14 @@ const Experience = () => {
             timeline: " Dec 2023 - current",
         },
         {
-            company: "Codebind techonolog",
+            company: "Codebind techonology",
             work: " Web development.",
             timeline: "2019 - 2021",
         },
         {
-            company: "PQR Solutions",
+            company: "Trapsi",
             work: "Intern",
-            timeline: "Summer 2018",
+            timeline: "Jan 2020",
         },
     ];
 
